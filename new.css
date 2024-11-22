@@ -1,0 +1,76 @@
+body{
+    position: relative;
+}
+.fixed{
+    top: 20px;
+    right: 100px;
+    position: fixed;
+     background-color: green;
+     color: white;
+    height: 20px;
+    width: 50px;
+}
+    
+ .parent{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+.child{
+    background-color:green;
+    color:wheat;
+    height: 100px;
+    width: 100px;
+    position: static;
+    top: 400px;
+}
+.son{
+    position: relative;
+    background-color: aqua;
+    color: white;
+    height: 100px;
+    width: 100px;
+
+    
+}
+.daughter{
+    background-color: yellowgreen;
+    color: aquamarine;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.children{
+    position: absolute;
+    background-color: red;
+    color: bisque;
+    height: 100px;
+    width: 100px;
+}
+.ok{
+    background-color: yellow;
+    color: brown;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    left: 1200px;
+    position: fixed;
+
+}
+.hot{
+    background-color: brown;
+    color: green;
+    position: sticky;
+
+}
+.sticky
+{
+    background-color: white;
+    color: yellow;
+    position: sticky;
+    height: 100px;
+    width: 100px;
+    top: 30px;
+    bottom: 1px;
+}
